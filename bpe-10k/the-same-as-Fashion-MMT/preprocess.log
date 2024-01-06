@@ -1,0 +1,14 @@
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='/home/gb/hzy/second-article/EMMT/triplet-only/no-split-kongge/bpe-10k/the-same-as-Fashion-MMT', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, no_progress_bar=False, nwordssrc=3700, nwordstgt=2900, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='en', srcdict=None, target_lang='zh', task='translation', tensorboard_logdir='', testpref='/home/gb/hzy/second-article/EMMT/triplet-only/no-split-kongge/bpe-10k/test', tgtdict=None, threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='/home/gb/hzy/second-article/EMMT/triplet-only/no-split-kongge/bpe-10k/train', user_dir=None, validpref='/home/gb/hzy/second-article/EMMT/triplet-only/no-split-kongge/bpe-10k/valid', workers=12)
+[en] Dictionary: 3703 types
+[en] /home/gb/hzy/second-article/EMMT/triplet-only/no-split-kongge/bpe-10k/train.en: 20861 sents, 498056 tokens, 12.2% replaced by <unk>
+[en] Dictionary: 3703 types
+[en] /home/gb/hzy/second-article/EMMT/triplet-only/no-split-kongge/bpe-10k/valid.en: 1000 sents, 20905 tokens, 10.6% replaced by <unk>
+[en] Dictionary: 3703 types
+[en] /home/gb/hzy/second-article/EMMT/triplet-only/no-split-kongge/bpe-10k/test.en: 1000 sents, 20905 tokens, 10.6% replaced by <unk>
+[zh] Dictionary: 2903 types
+[zh] /home/gb/hzy/second-article/EMMT/triplet-only/no-split-kongge/bpe-10k/train.zh: 20861 sents, 560555 tokens, 4.77% replaced by <unk>
+[zh] Dictionary: 2903 types
+[zh] /home/gb/hzy/second-article/EMMT/triplet-only/no-split-kongge/bpe-10k/valid.zh: 1000 sents, 23749 tokens, 3.39% replaced by <unk>
+[zh] Dictionary: 2903 types
+[zh] /home/gb/hzy/second-article/EMMT/triplet-only/no-split-kongge/bpe-10k/test.zh: 1000 sents, 23749 tokens, 3.39% replaced by <unk>
+Wrote preprocessed data to /home/gb/hzy/second-article/EMMT/triplet-only/no-split-kongge/bpe-10k/the-same-as-Fashion-MMT
