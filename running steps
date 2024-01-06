@@ -1,1 +1,9 @@
+The manuscript titled "Beyond Visual Imbalance: Domain Pseudo-visual Scene-aware Fusion for Domain-specific Multimodal Neural Machine Translation" delineates the following procedural methodology:
 
+1、Execution of data-process.sh script via the command bash data-process.sh.
+2、Initiation of data-train.sh script employing bash data-train.sh.
+3、Activation of data-checkpoint.sh script through bash data-checkpoint.sh.
+4、Implementation of data-generate.sh script by utilizing bash data-generate.sh.
+The dataset data-bin-small-1 encompasses the preprocessed Fashion-MMT(clean) dataset, while data-bin-large-all includes the preprocessed Fashion-MMT(large) dataset. Moreover, bpe-10k represents the preprocessed EMMT dataset.
+
+The Fashion-MMT and EMMT datasets are accessible at the following URLs: https://github.com/AIM3-RUC/Fashion-MMT and https://huggingface.co/datasets/Yaoming95/EMMT. Additionally, the WIT dataset can be found in the publication "VALHALLA: Visual Hallucination for Machine Translation."
